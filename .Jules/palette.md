@@ -1,0 +1,3 @@
+## 2024-05-24 - Skip to Content link pattern
+**Learning:** Adding a Skip to Content link is an essential accessibility practice that makes it much easier for keyboard navigation and screen readers to bypass repeated navigation links and jump directly to the main content.
+**Action:** Always add a visually hidden (but focusable) "Skip to content" link at the very top of the DOM structure that links to the main content area of the application.
