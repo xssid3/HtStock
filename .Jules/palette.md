@@ -1,0 +1,3 @@
+## 2024-10-24 - Accessibility improvements on default Next.js template links
+**Learning:** Default templates often overlook explicit accessibility focus states (`focus-visible`) and screen-reader context for external links (`target="_blank"`), meaning users with keyboards might not know what is focused, and screen reader users might not expect a link to open in a new tab.
+**Action:** Always ensure that interactive elements have a clear `focus-visible` outline for keyboard navigation, and ensure external links clearly convey their context using `aria-label` (e.g., "[Link Name] (opens in a new tab)") alongside `rel="noopener noreferrer"`.
